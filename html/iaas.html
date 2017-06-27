@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title> IAAS Page </title>
+    </head>
+    <body>
+        <p><h2> This is your IAAS creation page </h2></p>
+
+        <form action='/cgi-bin/iaasconfiguration.py' method = "POST">
+            Enter Name of the OS: <input type = "text" name='name'></br>
+            Enter Ram size <input type="text" name = "ram_size"></br>
+            Enter No. of CPU Cores <input type="text" name="cpu_core"><br/>
+            Enter HDD Required <input type="text" name="hdd_size"><br/>
+            What OS ? <input type="text" name="os_type"><br/>
+            Enter Any Port No.<input type="text" name="port"></br>
+            <input type="submit" value="Create">
+        </form>
+    </body>
+</html>
